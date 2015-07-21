@@ -1,2 +1,2 @@
 # TinyMVC
-TinyMVC
+My first small MVC project
