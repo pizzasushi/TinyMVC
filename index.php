@@ -7,10 +7,6 @@ $url = preg_replace('/\..*/', '', $url);
 // echo $url .".php" . "<br>";
 
 if ( file_exists( $url . ".php" ) ) {
-	//controller
-    // require_once $url . ".php";
-    //view
-    // require_once $root . '/app/views/'. $pageName.'.view.php';
     $page = $url . ".php";
     require_once "app/controllers/index.php";
 } else {

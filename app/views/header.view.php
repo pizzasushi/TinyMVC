@@ -2,9 +2,17 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title><? echo $title; ?></title>
+	<title><? echo $title; ?> | Autodemo.ru</title>
+	<link rel="stylesheet" href="app/views/css/style.css?<? echo rand(); ?>">
 </head>
+
 <body>
-	<h4>Page name: <small><? echo $title; ?></small></h4>
+
+	<div class="header">
+		<div class="logo">
+			<h5><a href="/">autodemo.ru</a></h5>
+		</div>
+	</div>
+
 </body>
 </html>

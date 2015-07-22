@@ -1,6 +1,7 @@
-<h5>PAGE HELLO!</h5>
+<h5>Available cars</h5>
 
 <table>
+
 	<tr>
 		<td>id</td>
 		<td>title</td>
@@ -9,9 +10,12 @@
 
 	<?php foreach ($cars as $car): ?>
 		<tr>
-			<td><?= $car->id;?></td>
+			<td><a href="/detailed?id=<?= $car->id;?>"> <?= $car->id;?></a></td>
 			<td><?= $car->title;?></td>
 			<td><?= $car->model;?></td>
 		</tr>
 	<?php endforeach ?>
+
 </table>
+
+<br>

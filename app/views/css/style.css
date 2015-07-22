@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+}
+.header{
+  color: white;
+  overflow: auto;
+  background-color: #950c01;
+  a{
+  	color: white !important;
+  }
+}
+.footer {
+  padding: 20px 0px 20px 0px;
+  color: white;
+  background-color: #2F2F2F;
+}

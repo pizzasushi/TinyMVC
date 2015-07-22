@@ -1,3 +1,6 @@
+RewriteRule ^views - [L,NC]
+
+
 #turn on url rewriting 
 RewriteEngine on
 
